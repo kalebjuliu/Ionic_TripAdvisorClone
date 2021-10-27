@@ -1,0 +1,327 @@
+@media (prefers-color-scheme: dark) {
+    ion-tab-button{
+        --color-selected: white;
+    }
+    .location-btn{
+        --border-color: white;
+        --color: white;
+    }
+    .card-btn{
+        --color: black;
+        --background: white;
+    }
+    .explore-header{
+        background-color: #2e1c48;
+    }
+    .main-bg{
+        background-image: url("https://i.ibb.co/k1rvHKJ/banner-dark.png");
+    }
+    .card-slider-section-content h1 span{
+        color: white;
+    }
+}
+@media (prefers-color-scheme: light) {
+    ion-tab-button{
+        --color-selected: black;
+    }
+    .location-btn{
+        --border-color: white;
+        --color: white;
+    }
+    .card-btn{
+        --color: black;
+        --background: white;
+    }
+    .explore-header{
+        background-color: #fdc735;
+    }
+    .main-bg{
+        background-image: url("https://i.ibb.co/sHmVG8q/banner.png");
+    }
+    .card-slider-section-content h1 span{
+        color: rgb(78, 78, 78);
+    }
+}
+
+
+ion-content.banner{
+    position: relative;
+}
+ion-button{
+    --box-shadow: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.2rem;
+}
+.header h1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-size: 1.6rem;
+}
+.main-bg{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slides{
+    position: absolute;
+    width: 100%;
+    padding-top: 0.5rem;
+}
+.slide{
+    margin-right: 1rem;
+}
+.slide-icon{
+    font-size: 0.8rem;
+  }
+.btn-text{
+    text-transform: capitalize;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: -0.02em;
+    margin-left: 0.5em;
+}
+.btn-text-norm{
+    text-transform: capitalize;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: -0.02em;
+}
+
+.bg-image{
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    background-color: gray;
+    margin-top: 1.5rem;
+}
+.image-0{
+    background-image: url("https://i.ibb.co/cLPZcfh/pexels-pixabay-533881.jpg");
+    background-size: cover;
+}
+.image-1{
+    background-image: url("https://i.ibb.co/0F8M0VT/pexels-lisa-1279330.jpg");
+    background-size: cover;
+}
+.image-2{
+    background-image: url("https://i.ibb.co/YB1QHhf/pexels-pixabay-461956.jpg");
+    background-size: cover;
+}
+.image-3{
+    background-image: url("https://i.ibb.co/yqJQ63r/pexels-aleksandar-pasaric-2339009.jpg");
+    background-size: cover;
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+.content h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.card-slider-section{
+    margin-top: 3.5rem;
+}
+.card-slider-section-content{
+    margin-left: 1.1rem;
+}
+.card-slider-section-content h1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.6rem;
+}
+.card-slider-section-content h1 span{
+    font-weight: 400;
+    font-size: 0.9rem;
+    
+}
+.card-city{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+}
+.card-city h1{
+    position: absolute;
+    bottom: 0;
+    padding-left: 0.7rem;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 6px rgb(37, 37, 37, 0.5);
+}
+.city-0{
+    background-image: url("https://i.ibb.co/37PgKWh/pexels-jean-van-der-meulen-1457842.jpg");
+}
+.city-1{
+    background-image: url("https://i.ibb.co/CKCmDyz/pexels-max-vakhtbovych-7195534.jpg");
+}
+.city-2{
+    background-image: url("https://i.ibb.co/WvgNZdc/pexels-max-vakhtbovych-7195573.jpg");
+}
+.city-3{
+    background-image: url("https://i.ibb.co/tK67s9n/pexels-max-vakhtbovych-7195730.jpg");
+}
+.city-4{
+    background-image: url("https://i.ibb.co/9wxMy7k/pexels-fede-roveda-4179480.jpg");
+}
+.city-5{
+    background-image: url("https://i.ibb.co/r0ZwLHz/pexels-yuting-gao-1089194.jpg");
+}
+.city-6{
+    background-image: url("https://i.ibb.co/R96zXtM/pexels-ready-made-3874023.jpg");
+}
+.city-7{
+    background-image: url("https://i.ibb.co/rx0gnYv/pexels-h-emre-773471.jpg");
+}
+
+
+
+
+.search-input{
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    border: 1px solid #dfdfdf;
+    color: #7b7b7b;
+}
+.location-settings{
+    width: 80%;
+    height: 175px;
+    margin: 1rem auto;
+    background-color: #004f32;
+}
+
+.location-settings-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+.destination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dest-title{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.dest-div-0{
+    display: flex;
+}
+.dest-div-1{
+    display: flex;
+}
+.card-destination{
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    position: relative;
+}
+.card-destination h1{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 0.6rem;
+}
+.dest-0{
+    background-image: url("https://i.ibb.co/rx0gnYv/pexels-h-emre-773471.jpg");
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.dest-1{
+    background-image: url("https://i.ibb.co/9wxMy7k/pexels-fede-roveda-4179480.jpg");
+}
+.dest-2{
+    background-image: url("https://i.ibb.co/r0ZwLHz/pexels-yuting-gao-1089194.jpg");
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.dest-3{
+    background-image: url("https://i.ibb.co/R96zXtM/pexels-ready-made-3874023.jpg");
+}
+
+
+
+
+
+.segment{
+    max-width: 80%;
+}
+.trips-list{
+    margin-top: 1rem;
+    padding: 0.8rem;
+}
+.trips-icon{
+    background-color: #004f32;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+.trips-text{
+    margin-left: 1rem;
+    font-family: 'DM Sans', sans-serif;
+}
+.trips-input{
+    max-width: 90%;
+    margin: 1rem auto;
+    border: 1px solid #a7a7a7;
+    border-radius: 6px;
+}
+.trip-label{
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 1.2rem;
+    font-size: 0.9rem;
+}
+.trip-btn{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.savings{
+    margin-top: 2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+
+
+.review-card{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.review-img-0{
+    background-image: url("https://i.ibb.co/X462BBn/Screenshot-2021-09-16-214430.png");
+}
+.review-img-1{
+    background-image: url("https://i.ibb.co/1njcn6L/Screenshot-2021-09-16-214443.png");
+}
+
+
